@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1256px;
+    margin: 0 auto;
+}
+.menu{
+    height: 64px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo.img{
+    height: 46px;
+}
+.menu-search{
+    width: 650px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 36px;
+}
+.baner{
+    padding: 20px;
+}
+.item-title{
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+.item-title :hover{
+    color: red;
+}
+.image :hover{
+    overflow: hidden;
+    display: block;
+    transform: scale(1.09); 
+}
+.item-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+    color: aqua;
+}
+.list{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+.gg{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.footer{
+    
+    margin: 40px auto;
+}
+.ft-top{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+ul.ft_list{
+    list-style: none;
+}
+ul.ft_list li{
+    color: #f64545;
+    font-size: 15px;
+    font-weight: 500;
+}
+.ft-bt{
+    margin-top: 50px;
+    height: 200px;
+    background-color: gray;
+}
+ul.ft_list li{
+    color: #f64545;
+    font-size: 15px;
+    font-weight: 500;
+}
